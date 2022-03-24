@@ -1,0 +1,54 @@
+.standard-repair-form-container {
+  background-color: rgb(124, 36, 14);
+  padding: 2.5rem;
+  margin: 2rem auto;
+  max-width: 50%;
+  border-radius: 5px;
+}
+
+.standard-repair-form-title {
+  font-family: "poppins", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgba(245, 246, 250, 1);
+}
+
+.standard-repair-form-label {
+  color: rgba(251, 197, 49, 1);
+  font-weight: lighter !important;
+}
+
+.standard-repair-form-btn {
+  display: block !important;
+  border: none !important;
+  padding: 1rem 2rem !important;
+  color: #fff !important;
+  background-color: rgba(194, 54, 22, 1) !important;
+  border-radius: 1rem !important;
+  width: 100% !important;
+  font-size: 1.5rem !important;
+}
+.standard-repair-form-btn:hover {
+  background-color: rgb(112, 27, 8) !important;
+}
+
+.standard-repair-form-add-material-btn {
+  display: block !important;
+  border: none !important;
+  padding: 0.6rem !important;
+  margin: 0.5rem 0 !important;
+  color: rgb(112, 27, 8) !important;
+  background-color: #ccc !important;
+  border-radius: 1rem !important;
+  font-size: 1rem !important;
+}
+
+@media screen and (max-width: 700px) {
+  .standard-repair-form-container {
+    max-width: 95%;
+  }
+
+  .standard-repair-form-title {
+    font-size: 1rem;
+  }
+}

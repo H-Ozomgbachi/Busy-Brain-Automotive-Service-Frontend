@@ -1,0 +1,37 @@
+.standard-repair-table-container {
+  background-color: rgba(232, 65, 24, 1);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 70%;
+  border-radius: 5px;
+}
+
+.standard-repair-table-container table {
+  font-family: "poppins", sans-serif;
+}
+
+.standard-repair-table-heading {
+  color: rgb(112, 27, 8);
+}
+
+.standard-repair-table-footer {
+  background-color: rgba(112, 27, 8, 0.8);
+  color: #fff;
+}
+.standard-repair-table-footer-empty {
+  background-color: #fff !important;
+}
+
+.standard-repair-table-go-back {
+  color: rgba(251, 197, 49, 1);
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .standard-repair-table-container {
+    max-width: 97%;
+  }
+}
